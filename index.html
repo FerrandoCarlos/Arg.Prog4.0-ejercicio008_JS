@@ -2,19 +2,21 @@
 Crear un formulario que le solicite al usuario ingresar un código. El formulario debe tener un input del tipo text y un botón que llama a una función para validar. La validación debe verificar que el código sea exactamente de 8 caracteres y siempre debe comenzar con la letra A. Mostrar en un párrafo el mensaje si el código es valido o no.    -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 8</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <form action="#">
-            <label for="code">Ingresar un código</label>
-            <input type="text" name="code" id="code" required>
-            <button id="btn">VALIDAR</button>
-        </form>
+      <form action="#">
+        <label for="code">Ingresar un código</label>
+        <input type="text" name="code" id="code" required />
+        <button id="btn">VALIDAR</button>
+      </form>
+      <p id="mostrar"></p>
     </div>
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>

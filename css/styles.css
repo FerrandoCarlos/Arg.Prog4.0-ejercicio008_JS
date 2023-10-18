@@ -36,13 +36,20 @@ body {
 }
 
 .container form > * {
-    margin-bottom: 1rem;
+    margin: 1rem;
     
 }
 
 #btn{
     cursor: pointer;
+    margin-top: 1rem;
     padding: 5px 10px;
     color: white;
     background-color: navy;
+    border-radius: 5px;
+}
+
+p{
+    padding: 5px;
+    text-align:center;
 }
